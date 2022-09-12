@@ -98,7 +98,7 @@ body .ic-body .ic-card .ic-paragraph .ic-text {
   font-weight: 400;
 }
 
-body .ic-body .ic-card .ic-paragraph .ic-info {
+body .ic-body .ic-card .ic-paragraph .ic-information {
   margin: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,7 +111,7 @@ body .ic-body .ic-card .ic-paragraph .ic-info {
           justify-content: space-between;
 }
 
-body .ic-body .ic-card .ic-paragraph .ic-info .ic-price {
+body .ic-body .ic-card .ic-paragraph .ic-information .ic-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,24 +120,16 @@ body .ic-body .ic-card .ic-paragraph .ic-info .ic-price {
           align-items: center;
 }
 
-body .ic-body .ic-card .ic-paragraph .ic-info .ic-price .i-text {
+body .ic-body .ic-card .ic-paragraph .ic-information .ic-info .i-text {
   font-weight: 400;
   padding-left: 10px;
+}
+
+body .ic-body .ic-card .ic-paragraph .ic-information .ic-info .i-text--price {
   color: #00FFF8;
 }
 
-body .ic-body .ic-card .ic-paragraph .ic-info .ic-date {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .ic-body .ic-card .ic-paragraph .ic-info .ic-date .i-text {
-  font-weight: 400;
-  padding-left: 10px;
+body .ic-body .ic-card .ic-paragraph .ic-information .ic-info .i-text--date {
   color: #94B5E0;
 }
 
