@@ -38,6 +38,7 @@ body {
 
                 &:hover .i-image-hidden {
                     display: block;
+                    cursor: pointer;
                 }
 
                 &:hover  .i-image{
@@ -69,7 +70,7 @@ body {
 
                 .ic-text {
                     margin: 10px 0;
-                    font-size: 17px;
+                    font-size: 18px;
                     color: #769ECB;
                     font-weight: 400;
                 }
@@ -85,8 +86,9 @@ body {
                         align-items: center;
 
                         .i-text {
-                            color: #00FFF8;
+                            font-weight: 400;
                             padding-left: 10px;
+                            color: #00FFF8;
                         }
                     }
 
@@ -95,8 +97,9 @@ body {
                         align-items: center;
 
                         .i-text {
-                            color: #94B5E0;
+                            font-weight: 400;
                             padding-left: 10px;
+                            color: #94B5E0;
                         }
                     }
                 }
