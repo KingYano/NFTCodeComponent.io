@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d192b;
+  font-family: 'Outfit', sans-serif;
+}
+
+body .ic-body {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .ic-body .ic-card {
+  padding: 20px;
+  height: 545px;
+  width: 320px;
+  background-color: #14253d;
+  border-radius: 20px;
+}
+
+body .ic-body .ic-card .ic-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-color: #00FFF8;
+  border-radius: 7px;
+}
+
+body .ic-body .ic-card .ic-picture .i-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+body .ic-body .ic-card .ic-picture .i-image-hidden {
+  display: none;
+  position: absolute;
+}
+
+body .ic-body .ic-card .ic-picture:hover .i-image-hidden {
+  display: block;
+}
+
+body .ic-body .ic-card .ic-picture:hover .i-image {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+body .ic-body .ic-card .ic-paragraph {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .ic-body .ic-card .ic-paragraph .ic-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+body .ic-body .ic-card .ic-paragraph .ic-title .i-link {
+  color: white;
+  text-decoration: none;
+}
+
+body .ic-body .ic-card .ic-paragraph .ic-title .i-link:hover {
+  color: #00FFF8;
+}
+
+body .ic-body .ic-card .ic-paragraph .ic-text {
+  margin: 10px 0;
+  font-size: 17px;
+  color: #769ECB;
+  font-weight: 400;
+}
+
+body .ic-body .ic-card .ic-paragraph .ic-info {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .ic-body .ic-card .ic-paragraph .ic-info .ic-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .ic-body .ic-card .ic-paragraph .ic-info .ic-price .i-text {
+  color: #00FFF8;
+  padding-left: 10px;
+}
+
+body .ic-body .ic-card .ic-paragraph .ic-info .ic-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .ic-body .ic-card .ic-paragraph .ic-info .ic-date .i-text {
+  color: #94B5E0;
+  padding-left: 10px;
+}
+
+body .ic-body .ic-card .ic-separation {
+  margin: 15px 0 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .ic-body .ic-card .ic-separation .ic-bar {
+  width: 85%;
+  height: 1px;
+  background-color: #2f415b;
+}
+
+body .ic-body .ic-card .ic-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body .ic-body .ic-card .ic-author .i-avatar {
+  height: 35px;
+  margin-right: 15px;
+  border-radius: 55px;
+  border: solid 1px white;
+}
+
+body .ic-body .ic-card .ic-author .i-user-text {
+  color: #94B5E0;
+}
+
+body .ic-body .ic-card .ic-author .i-user-link {
+  color: white;
+  text-decoration: none;
+}
+
+body .ic-body .ic-card .ic-author .i-user-link:hover {
+  color: #00FFF8;
+}
+/*# sourceMappingURL=style.css.map */
